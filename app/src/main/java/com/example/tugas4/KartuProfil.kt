@@ -43,6 +43,12 @@ fun KartuProfil(
         Row(
             modifier = Modifier.fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically
-        ) {}
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(70.dp).padding(5.dp)
+            )
+        }
     }
 }
