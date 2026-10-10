@@ -39,5 +39,12 @@ fun HalamanProfil(modifier: Modifier = Modifier) {
             bobotNama = FontWeight.Normal,
             ukuranNama = 22.sp
         )
+        KartuProfil(
+            nama = stringResource(R.string.nama_2),
+            telepon = stringResource(R.string.telepon_2),
+            alamat = stringResource(R.string.alamat_2),
+            warnaKartu = colorResource(R.color.card_2_bg),
+            warnaAlamat = kuning
+        )
     }
 }
