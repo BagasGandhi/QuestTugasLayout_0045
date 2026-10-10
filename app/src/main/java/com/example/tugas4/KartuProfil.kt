@@ -66,7 +66,13 @@ fun KartuProfil(
                         fontSize = 11.sp,
                         color = colorResource(id = R.color.teks_cyan)
                     )
-            }   }
+                }
+                Text(
+                    text = alamat,
+                    fontSize = 11.sp,
+                    color = warnaAlamat
+                )
+            }
         }
     }
 }
