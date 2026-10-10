@@ -60,5 +60,13 @@ fun HalamanProfil(modifier: Modifier = Modifier) {
             warnaKartu = colorResource(R.color.card_4_bg),
             warnaAlamat = putih
         )
+
+        Box(modifier = Modifier.fillMaxSize()) {
+            Text(
+                text = stringResource(R.string.copy),
+                fontSize = 10.sp,
+                modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 50.dp)
+            )
+        }
     }
 }
