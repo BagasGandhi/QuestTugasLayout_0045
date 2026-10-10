@@ -39,5 +39,10 @@ fun KartuProfil(
             .fillMaxWidth()
             .padding(horizontal = 12.dp, vertical = 6.dp),
         colors = CardDefaults.cardColors(containerColor = warnaKartu)
-    ) {}
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically
+        ) {}
+    }
 }
