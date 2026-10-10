@@ -29,4 +29,15 @@ fun HalamanProfil(modifier: Modifier = Modifier) {
         Text(stringResource(R.string.prodi), fontSize = 28.sp, fontWeight = FontWeight.Bold)
         Text(stringResource(R.string.univ), fontSize = 14.sp, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(20.dp))
+
+        KartuProfil(
+            nama = stringResource(R.string.nama_1),
+            alamat = stringResource(R.string.alamat_1),
+            warnaKartu = colorResource(R.color.card_1_bg),
+            warnaAlamat = kuning,
+            fontNama = FontFamily.Cursive,
+            bobotNama = FontWeight.Normal,
+            ukuranNama = 22.sp
+        )
     }
+}
