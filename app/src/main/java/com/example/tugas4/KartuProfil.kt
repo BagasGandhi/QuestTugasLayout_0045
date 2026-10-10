@@ -52,7 +52,21 @@ fun KartuProfil(
             Column(
                 modifier = Modifier.weight(1f),
                 horizontalAlignment = Alignment.CenterHorizontally
-            ) {}
+            ) {
+                Text(
+                    text = nama,
+                    fontSize = ukuranNama,
+                    fontFamily = fontNama,
+                    fontWeight = bobotNama,
+                    color = colorResource(id = R.color.teks_putih)
+                )
+                if (telepon != null) {
+                    Text(
+                        text = telepon,
+                        fontSize = 11.sp,
+                        color = colorResource(id = R.color.teks_cyan)
+                    )
+            }   }
         }
     }
 }
