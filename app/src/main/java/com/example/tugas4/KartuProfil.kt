@@ -49,6 +49,10 @@ fun KartuProfil(
                 contentDescription = null,
                 modifier = Modifier.size(70.dp).padding(5.dp)
             )
+            Column(
+                modifier = Modifier.weight(1f),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {}
         }
     }
 }
