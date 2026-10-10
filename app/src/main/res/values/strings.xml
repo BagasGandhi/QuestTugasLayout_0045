@@ -6,4 +6,8 @@
 
     <string name="nama_1">Atep Kasep</string>
     <string name="alamat_1">Paris, Paris</string>
+
+    <string name="nama_2">Dadang Sumadang</string>
+    <string name="telepon_2">085436874190</string>
+    <string name="alamat_2">Bordeaux, Gironde</string>
 </resources>
