@@ -25,4 +25,8 @@ fun HalamanProfil(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier.fillMaxSize().padding(top = 100.dp),
         horizontalAlignment = Alignment.CenterHorizontally
-    ) {}
+    ) {
+        Text(stringResource(R.string.prodi), fontSize = 28.sp, fontWeight = FontWeight.Bold)
+        Text(stringResource(R.string.univ), fontSize = 14.sp, fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.height(20.dp))
+    }
