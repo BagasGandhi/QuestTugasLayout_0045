@@ -46,5 +46,12 @@ fun HalamanProfil(modifier: Modifier = Modifier) {
             warnaKartu = colorResource(R.color.card_2_bg),
             warnaAlamat = kuning
         )
+        KartuProfil(
+            nama = stringResource(R.string.nama_3),
+            telepon = stringResource(R.string.telepon_3),
+            alamat = stringResource(R.string.alamat_3),
+            warnaKartu = colorResource(R.color.card_3_bg),
+            warnaAlamat = putih
+        )
     }
 }
